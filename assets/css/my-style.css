@@ -1,0 +1,84 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td, img  {
+    margin: 0; padding: 0
+  }
+  body {
+    font-family:'Open Sans', Arial, sans-serif;
+    font-weight:400;
+    font-size:16px;
+    color:#222;
+  }
+.head{
+    border:1px solid red;
+}
+table td, th {
+    border:1px solid  #000;
+    padding:12px;
+}
+ul li {list-style-type:none}
+.wrap{
+    margin:auto;
+    width:80%;
+    margin-top: 70px;
+}
+.wrap p{
+  margin-bottom:20px;
+  margin-top:20px;
+}
+.wrap p span{
+  border-bottom:1px solid #000;
+  padding:0 20px;
+}
+
+.rRight{
+    float:right;
+}
+.rLeft{
+    float:left;
+}
+.formWrap{
+    text-align:center;
+    background-color:#797979;
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+.inner{
+  width:80%;
+  margin:auto;
+}
+.inner a{
+  float:left;
+  padding:15px 15px;
+  color:#fff;
+  text-decoration:none;
+
+}
+.inner a:hover{
+  background-color:#5f5e5e;
+}
+.inner form{
+  margin-top:8px;
+  float:right;
+  background-color:#33b0e0;
+}
+.inner select{
+  width:300px;
+  padding:10px 15px;
+  border:1px solid #33b0e0;
+}
+.inner button{
+  padding:10px 15px;
+  background-color:#33b0e0;
+  border:1px solid #33b0e0;
+}
+.blocker{clear:both !important}
+
+
+@media print {
+  .formWrap{
+    display: none !important;
+    border:1px solid red;
+  }
+ }
+ 
+ 
